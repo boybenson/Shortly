@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/IntroPage.css'
+import illustrationPhoto from '../images/illustration-working.svg'
 
 function IntroPage() {
     return (
@@ -13,7 +14,7 @@ function IntroPage() {
                         <button>Get Started</button>
                     </div>
                     <div className="intro__image">
-                        <img src="/images/illustration-working.svg" alt="illustration pics"/>
+                        <img src={illustrationPhoto} alt="illustration pics"/>
                     </div>
                 </div>
             </section>

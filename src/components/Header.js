@@ -1,6 +1,7 @@
 import React from 'react'
 import MenuIcon from '@material-ui/icons/Menu';
 import '../styles/Header.css'
+import logo from '../images/logo.svg'
 
 function Header() {
     return (
@@ -9,7 +10,7 @@ function Header() {
                 <div className="container">
                     <div className="header__left">
                         <div className="header__logo">
-                            <img src="/images/logo.svg" alt="logo"/>
+                            <img src={logo} alt="logo"/>
                         </div>
                         <div className="header__left__links">
                             <a href="/">Features</a>
