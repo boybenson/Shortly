@@ -1,0 +1,41 @@
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:10px;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__left__links a, .aut__links a{
+    margin-left: 30px;
+}
+
+.sign__up__button{
+    background-color: hsl(180, 66%, 49%);
+    color: #ffffff;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 43px;
+}
+
+.menu__bar{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .header__left__links{
+        display: none;
+    }
+
+    .aut__links{
+        display: none;
+    }
+
+    .menu__bar{
+        display: block;
+    }
+}

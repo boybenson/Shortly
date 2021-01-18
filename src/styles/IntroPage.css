@@ -1,0 +1,49 @@
+section .container{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.intro__writeup{
+    padding-right: 10%;
+}
+
+.intro__writeup h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.intro__writeup p{
+    margin-top: 1%;
+}
+
+.intro__writeup button{
+    background-color: hsl(180, 66%, 49%);
+    font-weight: 700;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 33px;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+    section .container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .intro__writeup{
+        margin-top: 2%;
+    }
+
+    .intro__writeup h1{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+
+    .intro__writeup {
+        padding-right: 0%;
+    }
+}
