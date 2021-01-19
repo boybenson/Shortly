@@ -1,0 +1,29 @@
+.container nav{
+    z-index: 1;
+}
+
+.container nav ul{
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.container nav{
+    background-color:hsl(257, 27%, 26%);
+    padding: 0 20px;
+    width: 90%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.container nav ul li{
+    margin-top: 20px;
+}
+
+.signup{
+    background-color: hsl(180, 66%, 49%);
+    padding: 8px 18px;
+    border: none;
+    border-radius: 33px;
+}

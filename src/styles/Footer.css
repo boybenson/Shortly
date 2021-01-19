@@ -19,12 +19,30 @@ footer ul{
     color: hsl(0, 0%, 75%)
 }
 
+footer ul li{
+    cursor: pointer;
+}
+
+footer ul li:hover{
+    color: #ffffff;
+}
+
 .footer__socials{
     color: #ffffff;
 }
 
+
 .footer__socials >* {
     margin-left: 10px;
+    cursor: pointer;
+}
+
+.facebook:hover, .twitter:hover{
+    color: lightblue;
+}
+
+.instagram:hover, .pinterest:hover{
+    color: lightcoral;
 }
 
 @media only screen and (max-width: 600px){

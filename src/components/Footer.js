@@ -50,10 +50,10 @@ function Footer() {
                     </div>
                     <div className="footer__company">
                         <div className="footer__socials">
-                            <FacebookIcon/>
-                            <TwitterIcon/>
-                            <PinterestIcon/>
-                            <InstagramIcon/>
+                            <FacebookIcon className='facebook'/>
+                            <TwitterIcon className='twitter'/>
+                            <PinterestIcon className='pinterest'/>
+                            <InstagramIcon className='instagram'/>
                         </div>
 
                     </div>

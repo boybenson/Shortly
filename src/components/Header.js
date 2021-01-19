@@ -3,7 +3,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import '../styles/Header.css'
 import logo from '../images/logo.svg'
 
-function Header() {
+function Header({toggleNav}) {
     return (
         <>
             <header>
@@ -24,7 +24,7 @@ function Header() {
                             <a href="/">Login</a>
                             <a href="/" className='sign__up__button'>Signup</a>
                         </div>
-                        <div className="menu__bar">
+                        <div className="menu__bar" onClick={() => toggleNav()}>
                             <MenuIcon fontSize='large' color='action'/>
                         </div>
                     </div>
