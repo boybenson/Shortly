@@ -10,7 +10,7 @@ function IntroPage() {
                     <div className="intro__writeup">
                         <h1>Building Softwares To Meet  Your Business Needs</h1>
                         <p>Building new software for your business, creating a mobile application to assist your contractors in the field, 
-                        or building a web app to get your product to your customers</p>
+                        or building</p>
                         <button>Get Started</button>
                     </div>
                     <div className="intro__image">
