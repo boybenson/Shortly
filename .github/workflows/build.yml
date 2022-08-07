@@ -8,5 +8,5 @@ jobs:
   print-hello-world:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "hello world"
-      -run: echo "this is step 2"
+      - run: echo "hello world"
+      - run: echo "this is step 2"
